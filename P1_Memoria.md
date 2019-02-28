@@ -8,7 +8,7 @@
 
 ### Instalación y arranque
 
-Descargar la herramienta `DBDap.jar` desde [Moodle](https://moodle2.unizar.es) y colocarla junto con el resto de sus directorios en la raíz del proyecto.
+Descargar la herramienta `DBDap.jar` desde [este enlace](http://webdiis.unizar.es/~silarri/TEACHING/TOOLS/DBDap-web.zip) y colocarla junto con el resto de sus directorios en la raíz del proyecto.
 
 Poner en marcha la herramienta con:
 
