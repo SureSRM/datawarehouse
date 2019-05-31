@@ -37,6 +37,7 @@ CREATE TABLE Pelicula
 
 CREATE TABLE Voto
 (
+	clvUsuario			INTEGER NOT NULL,
 	clvPelicula			INTEGER NOT NULL,
 	clvHora			INTEGER		NOT NULL,
 	clvFecha			INTEGER		NOT NULL,
