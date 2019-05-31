@@ -2,3 +2,10 @@
 /ejemplos
 /iconos
 *.jar
+
+/.venv
+/data
+/.ipynb_checkpoints
+
+data.db
+*.zip
