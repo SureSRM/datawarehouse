@@ -31,7 +31,8 @@ CREATE TABLE Pelicula
 	clvPelicula			INTEGER PRIMARY KEY,
 	idNatural			INTEGER		NOT NULL,
 	titulo			VARCHAR(255)		NOT NULL,
-	anyoLanzamiento			INTEGER		NOT NULL
+	anyoLanzamiento			INTEGER		NOT NULL,
+	genero			VARCHAR(255)		NOT NULL
 );
 
 
