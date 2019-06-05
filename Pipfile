@@ -6,10 +6,12 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-bonobo = "==0.6.3"
 imdbpy = "==6.6"
 pandas-profiling = "==1.4.1"
 jupyter = "*"
+numpy = "*"
+cython = "*"
+scikit-surprise = "*"
 
 [requires]
 python_version = "3.6"
