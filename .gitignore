@@ -1,12 +1,10 @@
-/ayuda
-/ejemplos
-/iconos
-*.jar
+/dbdapp
 
 /.venv
 /data
 /.ipynb_checkpoints
 
+entrega
 data.db
 *.zip
 
