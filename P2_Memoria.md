@@ -1,4 +1,4 @@
-# P1 - Memoria
+# P2 - Memoria
 
 | Sergio Martín Segura    | 622612 |
 | -----------------------:| ------ |
