@@ -1,0 +1,3 @@
+debido a problemas de horarios, no ha sido posible seguir las entregas periódicas.
+Por ello, tanto la versión aquí recogida como las versiones intermedias son idénticas.
+La única diferencia notable es la organización de directorios común.

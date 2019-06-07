@@ -38,10 +38,19 @@ notebook:
 ###################
 
 define build_entrega
+	rm -Rf entrega/p$(1)
 	mkdir -p entrega/p$(1)
 	-pandoc -s -o entrega/p$(1)/memoria-p$(1).pdf P$(1)_Memoria.md
 	cp autores.txt $(2) entrega/p$(1)/
 	cd entrega && zip -FSr p$(1)-$(NIP).zip p$(1)/
+endef
+
+define build_final
+	rm -Rf entrega/final
+	mkdir -p entrega/final
+	-pandoc -s -o entrega/final/memoria-todas.pdf P*_Memoria.md
+	cp autores.txt Mejoras.txt $(1) entrega/final/
+	cd entrega && zip -FSr final-$(NIP).zip final/
 endef
 
 entregas:
@@ -49,3 +58,4 @@ entregas:
 	$(call build_entrega,2,Makefile Pipfile* ETL.ipynb)
 	$(call build_entrega,3,Makefile Pipfile* Recomendador.ipynb)
 	$(call build_entrega,5)
+	$(call build_final,Makefile *.eee *.sql Pipfile* *.ipynb)
