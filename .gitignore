@@ -9,3 +9,5 @@
 
 data.db
 *.zip
+
+\.vs/
